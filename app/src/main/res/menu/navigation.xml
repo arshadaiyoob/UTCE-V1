@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/score"
+        android:title="@string/title_live" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/feed"
+        android:title="@string/title_feed" />
+
+    <item
+        android:id="@+id/navigation_team"
+        android:icon="@drawable/shild"
+        android:title="Teams" />
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/live"
+        android:title="@string/title_stream" />
+
+
+</menu>

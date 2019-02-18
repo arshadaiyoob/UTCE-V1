@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">UTCE</string>
+    <string name="title_live">Live Score</string>
+    <string name="title_feed">Feed</string>
+    <string name="title_stream">Stream</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="current_over">Current Over</string>
+    <string name="todo">TODO</string>
+    <string name="_0_0">0/0</string>
+    <string name="stcb">STCB</string>
+    <string name="_0_0_2">0.0</string>
+    <string name="stcg">STCG</string>
+    <string name="_0_0_2_2">0.0</string>
+    <string name="info">info</string>
+    <string name="rr_0_0">RR 0.0</string>
+    <string name="_0_0_2_2_2">0/0</string>
+    <string name="rr_0_0_2">RR 0.0</string>
+    <string name="todo1">TODO</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>
