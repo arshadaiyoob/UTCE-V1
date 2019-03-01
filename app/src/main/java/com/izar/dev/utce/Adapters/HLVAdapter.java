@@ -73,11 +73,11 @@ for (int e =0;e<getItemCount();e++) {
             viewHolder.tvSpecies.setBackground(ContextCompat.getDrawable(context, R.drawable.circ4));
             viewHolder.tvSpecies.setTextColor(Color.parseColor("#8D6E63"));
         }
-        else if(alName.get(i).b1.equals("Nb")) {
+        else if(alName.get(i).b1.equals("NB")) {
             viewHolder.tvSpecies.setBackground(ContextCompat.getDrawable(context, R.drawable.circ5));
             viewHolder.tvSpecies.setTextColor(Color.parseColor("#9E9E9E"));
         }
-        else if(alName.get(i).b1.equals("Wd")) {
+        else if(alName.get(i).b1.equals("WD")) {
             viewHolder.tvSpecies.setBackground(ContextCompat.getDrawable(context, R.drawable.circ6));
             viewHolder.tvSpecies.setTextColor(Color.parseColor("#546E7A"));
         }

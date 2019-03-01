@@ -73,7 +73,6 @@ public class LiveScore extends Fragment {
         P2_6 = (TextView) v.findViewById(R.id.textView30);
         Player1 = (TextView) v.findViewById(R.id.textView14) ;
         Player2 = (TextView) v.findViewById(R.id.textView15);
-        partnership =(TextView) v.findViewById(R.id.textView12);
         img1 =(ImageView) v.findViewById(R.id.imageView4);
         img2 = (ImageView) v.findViewById(R.id.imageView12);
         ValueEventListener postListener = new ValueEventListener() {
@@ -150,7 +149,6 @@ public class LiveScore extends Fragment {
                 P2_6.setText(String.valueOf(player2_6));
                 Player1.setText(player1_s+"("+player1_b+")");
                 Player2.setText(player2_s+"("+player2_b+")");
-                partnership.setText(String.valueOf(pt));
 //                    Comments.setText("");
                 // Comments.setText(Comments.getText()+comments);
 

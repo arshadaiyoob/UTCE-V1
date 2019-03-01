@@ -56,8 +56,8 @@ public class Countdown extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_countdown);
-        long tm = ms("16:20:00");
-        long dt =  milliseconds ("2018-10-26");
+        long tm = ms("15:20:00");
+        long dt =  milliseconds ("2019-02-28");
         timeInMilliseconds = dt +tm;
         final MediaPlayer mp ;
 

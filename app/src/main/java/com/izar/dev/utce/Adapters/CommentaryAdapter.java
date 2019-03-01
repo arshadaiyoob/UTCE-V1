@@ -80,9 +80,17 @@ public class CommentaryAdapter extends RecyclerView.Adapter<CommentaryAdapter.My
                     holder.ball.setBackground(ContextCompat.getDrawable(mContext, R.drawable.circ6));
                     holder.ball.setTextColor(Color.parseColor("#546E7A"));
                 }
+                else if (albumList.get(position).c_ball.equals("null")){
+                    holder.ball.setVisibility(View.GONE);
+                }
             }
         }
-        holder.title.setText("Over "+album.getC_title());
+        if (albumList.get(position).c_ball.equals("null")) {
+            holder.title.setText(album.getC_title());
+        }
+        else{
+            holder.title.setText("Over " + album.getC_title());
+        }
         holder.count.setText(album.getC_desc());
         holder.ball.setText(album.getC_ball());
 

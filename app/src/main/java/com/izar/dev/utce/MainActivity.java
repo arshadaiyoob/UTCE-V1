@@ -116,10 +116,10 @@ public class MainActivity extends AppCompatActivity{
                 Long Wickets=dataSnapshot2.child("wickets").getValue(Long.class);
                 Long Overs=dataSnapshot2.child("overs").getValue(Long.class);
                 Long Balls=dataSnapshot2.child("balls").getValue(Long.class);
-                Long away_Runs = dataSnapshot2.child("away-run").getValue(Long.class);
-                Long away_Wickets=dataSnapshot2.child("away-wkt").getValue(Long.class);
-                Long away_Overs=dataSnapshot2.child("away-overs").getValue(Long.class);
-                Long away_Balls=dataSnapshot2.child("away-balls").getValue(Long.class);
+                Long away_Runs = dataSnapshot2.child("awayrun").getValue(Long.class);
+                Long away_Wickets=dataSnapshot2.child("awaywkt").getValue(Long.class);
+                Long away_Overs=dataSnapshot2.child("awayovers").getValue(Long.class);
+                Long away_Balls=dataSnapshot2.child("awayballs").getValue(Long.class);
                 String.format("%.2f", runrate);
                 String comments=dataSnapshot2.child("comments").getValue(String.class);
                 Comments.setText(comments);
@@ -127,8 +127,8 @@ public class MainActivity extends AppCompatActivity{
                 runs.setText(Runs + "-" + Wickets);
                 away_runs.setText(away_Runs + "-" + away_Wickets);
                 Long ballsMod=Balls%6;
-                Long bls = away_Balls%6;
-                away_overs.setText(away_Overs + "." + bls+" Ovr");
+//                Long bls = away_Balls%6;
+             //   away_overs.setText(away_Overs + "." + bls+" Ovr");
                 overs.setText(Overs + "." + ballsMod+" Ovr");
 
 
