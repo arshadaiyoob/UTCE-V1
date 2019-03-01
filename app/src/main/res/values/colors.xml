@@ -5,6 +5,7 @@
     <color name="colorAccent">#001880</color>
     <color name="feed_title">#4c4c4c</color>
     <color name="placeholder_bg">#dddddd</color>
+    <color name="viewBg">#f1f5f8</color>
     <color name="overlay_bg_color">#CC000000</color>
     <color name="touch_overlay_bg_color">#33999999</color>
 

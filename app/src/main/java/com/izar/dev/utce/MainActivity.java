@@ -72,6 +72,8 @@ public class MainActivity extends AppCompatActivity{
                    replaceFragment(feed);
                     return true;
                 case R.id.navigation_team:
+                    team t = new team();
+                    replaceFragment(t);
                     return true;
                 case R.id.navigation_notifications:
                    Intent myIntent = new Intent(MainActivity.this, Stream.class);
